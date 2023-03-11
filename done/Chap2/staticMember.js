@@ -1,3 +1,4 @@
+"use strict";
 // class ClassA {
 //     static typeName: string;
 //     constructor() {
@@ -8,17 +9,18 @@
 // }
 // const a = new ClassA();
 // console.log(ClassA.typeName);
-var Runner = /** @class */ (function () {
-    function Runner(typeName) {
+class Runner {
+    typeName;
+    static lastRunTypeName;
+    constructor(typeName) {
         this.typeName = typeName;
     }
-    Runner.prototype.run = function () {
+    run() {
         Runner.lastRunTypeName = this.typeName;
-    };
-    return Runner;
-}());
-var a = new Runner("a");
-var b = new Runner("b");
+    }
+}
+const a = new Runner("a");
+const b = new Runner("b");
 b.run();
 a.run();
 console.log(Runner.lastRunTypeName);

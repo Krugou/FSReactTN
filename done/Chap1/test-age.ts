@@ -12,7 +12,7 @@ function canDrive(usr: User) {
         console.log("do not allow to drive");
     }
 } 
-      
+
 const tom = { 
     name: "tom",
     age: 25
