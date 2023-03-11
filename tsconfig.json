@@ -94,7 +94,7 @@
 		"pretty": true,
 		"noImplicitAny": true
 	},
-	"include": ["*/**/*.ts"],
+	"include": ["current/**/*.ts"],
 	"exclude": [
 		"node_modules",
 		"./node_modules",
