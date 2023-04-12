@@ -20,7 +20,7 @@
     "express-session": "^1.17.1",
     "ioredis": "^4.17.3",
     "pg": "^8.3.3",
-    "typeorm": "^0.2.25",
+    "typeorm": "^0.3.14",
     "uuid": "^8.3.0"
   },
   "devDependencies": {
