@@ -18,9 +18,9 @@
     "@types/faker": "^4.1.12",
     "@types/jest": "^26.0.8",
     "faker": "^4.1.0",
-    "jest": "^26.2.2",
+    "jest": "^30.2.0",
     "nodemon": "^2.0.4",
-    "ts-jest": "^26.1.4",
+    "ts-jest": "^29.4.6",
     "ts-node-dev": "^1.0.0-pre.56"
   }
 }
